@@ -1,0 +1,36 @@
+:host /deep/ {
+    .treeview-header {
+        .row-filter {
+            margin-bottom: .5rem;
+        }
+    }
+    .treeview-container {
+        .fa {
+            width: .8rem;
+            cursor: pointer;
+        }
+    }
+}
+
+.treeview-container {
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding-right: 18px;
+}
+
+.treeview-text {
+    padding: .3rem 0;
+    white-space: nowrap;
+}
+
+.form-check {
+    vertical-align: middle;
+}
+
+.form-check:hover {
+    background-color: #e2e2e2;
+}
+
+.form-check-input {
+    margin-right: 5px;
+}
